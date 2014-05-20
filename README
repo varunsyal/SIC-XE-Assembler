@@ -1,0 +1,40 @@
+Two folders : 'SIC' and 'SIC-XE' each containing :
+
+CPP FILES 	  :	 Assemble.cpp (containing int main() and PASS1), LoadDataTables.cpp, Pass2.cpp
+INPUT 		  :	 sourcecode.txt
+INTERMEDIATE FILE : 	 intermfile.txt
+OUTPUT 		  :	 AssemblyListing.txt, Objectfile.txt
+OTHERS 		  :	 Mnemonics.txt
+
+HOW TO RUN PROGRAM :
+
+Paste or write your program code in the file called 'sourcecode.txt', save it and run 'Assemble.exe'. If there are no mistakes in the code, then it will output "Assembly Successful" and you'll get your object program in 'Objectfile.txt' and assembly listing in 'AssemblyListing.txt'
+Note : ________USE ONLY UPPER CASE FOR ALL INSTRUCTIONS______
+One sample input is already provided so you need to run the '.exe' file only!
+
+SIC :
+A simple SIC Assembler incorporating ALL features of SIC machine which includes keywords START, END, BYTE, WORD, RESB, RESW, all mnemonics supported by SIC, COMMENTS etc.
+
+
+SIC/XE :
+Almost all major features are added to SIC/XE Assembler.
+_________________________________________________________________________________________________________________________
+SIC/XE FEATURES INCLUDE : 
+
+1.  All four INSTRUCTION FORMATS.
+2.  PROGRAM COUNTER relative addressing.
+3.  BASE relative addressing.
+4.  IMMEDIATE (#) addressing.
+5.  INDIRECT (@) addressing.
+6.  MODIFICATION RECORDS for program relocation.
+7.  LITERALS (=) using a literal table.
+8.  LTORG assembler directive.
+9.  SYMBOLS (EQU) assembler directive.
+10. EXPRESSIONS.
+11. Detailed Error debugging for each line.Try making mistakes in your code and see!!
+12. BASE assembler directive.
+13. NOBASE assembler directive.
+14. (=*) current location for EQU only.
+15. use of self developed HASH tables for SYMTAB, OPTAB and LITTAB.
+16. Flexibility in aligning columns in instruction lines.
+____________________________________________________________________________________________________________________________
